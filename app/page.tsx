@@ -8,7 +8,7 @@ export default function Home() {
         {/* Hero */}
         <section className="space-y-6">
           <p className="text-sm uppercase tracking-widest text-zinc-600">
-            Full Stack Developer
+            Software Engineer
           </p>
 
           <h1 className="text-5xl font-bold tracking-tight text-zinc-900 sm:text-3xl">
@@ -16,9 +16,10 @@ export default function Home() {
           </h1>
 
           <p className="max-w-2xl text-lg text-zinc-700">
-            I build modern web applications using React, Next.js, TypeScript,
-            and Tailwind CSS. I enjoy creating clean user experiences and
-            scalable solutions.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Maxime reprehenderit beatae nostrum saepe dolorem?
+            Consequuntur sed ipsa consequatur nulla et.
+            Pariatur maxime perspiciatis ad quos qui vel natus itaque necessitatibus.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -45,11 +46,10 @@ export default function Home() {
           </h2>
 
           <p className="max-w-3xl text-zinc-700">
-            I'm a passionate developer focused on building responsive,
-            accessible, and user-friendly web applications. I enjoy turning
-            ideas into real products and continuously learning new technologies.
-            My interests include frontend development, backend systems, UI/UX
-            design, and cloud technologies.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Maxime reprehenderit beatae nostrum saepe dolorem?
+            Consequuntur sed ipsa consequatur nulla et.
+            Pariatur maxime perspiciatis ad quos qui vel natus itaque necessitatibus.
           </p>
         </section>
 
@@ -72,19 +72,21 @@ export default function Home() {
               </h3>
 
               <p className="mt-2 text-zinc-700">
-                A weather application built with Next.js that provides forecasts,
+                A weather application built with Kotlin that provides forecasts,
                 weather insights, and a clean user-friendly interface.
               </p>
             </Link>
 
             <div className="rounded-xl border border-zinc-200 bg-white/60 p-6 backdrop-blur">
               <h3 className="text-xl font-medium text-zinc-900">
-                Portfolio Website
+                Lorem Ipsum
               </h3>
 
               <p className="mt-2 text-zinc-700">
-                A personal portfolio built with Next.js and Tailwind CSS,
-                showcasing projects, skills, and contact information.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Maxime reprehenderit beatae nostrum saepe dolorem?
+                Consequuntur sed ipsa consequatur nulla et.
+                Pariatur maxime perspiciatis ad quos qui vel natus itaque necessitatibus.
               </p>
             </div>
           </div>

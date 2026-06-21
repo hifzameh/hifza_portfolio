@@ -2,7 +2,7 @@
 export default function Home() {
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-500 to-yellow-100">
+    <div className="min-h-screen bg-gradient-to-b from-blue-500 to-white">
       <main className="mx-auto flex min-h-screen max-w-4xl flex-col justify-center px-8 py-16">
         {/* Hero */}
         <section className="space-y-6">
