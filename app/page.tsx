@@ -1,32 +1,37 @@
+import Link from "next/link";
+
 export default function Home() {
+
   return (
-    <div className="min-h-screen bg-zinc-50 text-zinc-900 dark:bg-black dark:text-zinc-100">
+    <div className="min-h-screen bg-gradient-to-b from-pink-200 via-rose-100 to-purple-200">
       <main className="mx-auto flex min-h-screen max-w-4xl flex-col justify-center px-8 py-16">
-        {/* Hero Section */}
+        {/* Hero */}
         <section className="space-y-6">
-          <p className="text-sm uppercase tracking-widest text-zinc-500">
-            
+          <p className="text-sm uppercase tracking-widest text-zinc-600">
+            Full Stack Developer
           </p>
 
-          <h1 className="text-5xl font-bold tracking-tight sm:text-6xl">
-            
+          <h1 className="text-5xl font-bold tracking-tight text-zinc-900 sm:text-3xl">
+            Hifza Mehmood
           </h1>
 
-          <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
-            
+          <p className="max-w-2xl text-lg text-zinc-700">
+            I build modern web applications using React, Next.js, TypeScript,
+            and Tailwind CSS. I enjoy creating clean user experiences and
+            scalable solutions.
           </p>
 
           <div className="flex flex-wrap gap-4">
             <a
               href="#projects"
-              className="rounded-lg bg-black px-5 py-3 text-white transition hover:opacity-90 dark:bg-white dark:text-black"
+              className="rounded-lg bg-black px-5 py-3 text-white transition hover:opacity-90"
             >
               View Projects
             </a>
 
             <a
               href="mailto:himea003@gmail.com"
-              className="rounded-lg border border-zinc-300 px-5 py-3 transition hover:bg-zinc-100 dark:border-zinc-700 dark:hover:bg-zinc-900"
+              className="rounded-lg border border-zinc-300 px-5 py-3 transition hover:bg-zinc-100"
             >
               Contact Me
             </a>
@@ -35,37 +40,74 @@ export default function Home() {
 
         {/* About */}
         <section className="mt-24" id="about">
-          <h2 className="mb-4 text-2xl font-semibold">About</h2>
-          <p className="text-zinc-600 dark:text-zinc-400">
-            
+          <h2 className="mb-4 text-2xl font-semibold text-zinc-900">
+            About
+          </h2>
+
+          <p className="max-w-3xl text-zinc-700">
+            I'm a passionate developer focused on building responsive,
+            accessible, and user-friendly web applications. I enjoy turning
+            ideas into real products and continuously learning new technologies.
+            My interests include frontend development, backend systems, UI/UX
+            design, and cloud technologies.
           </p>
         </section>
 
-        {/* Projects */}
         <section className="mt-24" id="projects">
-          <h2 className="mb-8 text-2xl font-semibold">Projects</h2>
+          <h2 className="mb-8 text-2xl font-semibold text-zinc-900">
+            Projects
+          </h2>
 
           <div className="grid gap-6 sm:grid-cols-2">
-            <div className="rounded-xl border border-zinc-200 p-6 dark:border-zinc-800">
-              <h3 className="text-xl font-medium">Project One</h3>
-              <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-                
-              </p>
-            </div>
 
-            <div className="rounded-xl border border-zinc-200 p-6 dark:border-zinc-800">
-              <h3 className="text-xl font-medium">Project Two</h3>
-              <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-               
+
+
+            <Link
+              href="/vaer"
+              target="_blank"
+              className="block rounded-xl border border-zinc-200 bg-white/60 p-6 backdrop-blur transition hover:scale-[1.02] hover:bg-white/80"
+            >
+              <h3 className="text-xl font-medium text-zinc-900">
+                VærBuddy
+              </h3>
+
+              <p className="mt-2 text-zinc-700">
+                A weather application built with Next.js that provides forecasts,
+                weather insights, and a clean user-friendly interface.
+              </p>
+            </Link>
+
+            <div className="rounded-xl border border-zinc-200 bg-white/60 p-6 backdrop-blur">
+              <h3 className="text-xl font-medium text-zinc-900">
+                Portfolio Website
+              </h3>
+
+              <p className="mt-2 text-zinc-700">
+                A personal portfolio built with Next.js and Tailwind CSS,
+                showcasing projects, skills, and contact information.
               </p>
             </div>
           </div>
         </section>
 
         {/* Footer */}
-        <footer className="mt-24 flex gap-6 text-sm text-zinc-500">
-          <a href="https://github.com/hifzameh">GitHub</a>
-          <a href="https://linkedin.com/in/hifzameh">LinkedIn</a>
+        <footer className="mt-24 flex gap-6 text-sm text-zinc-600">
+          <a
+            href="https://github.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://linkedin.com/in/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
           <a href="mailto:himea003@gmail.com">Email</a>
         </footer>
       </main>
