@@ -12,10 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Hifza",
-  description: "My portfolio",
-};
+
 
 export default function RootLayout({
   children,
@@ -31,3 +28,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+

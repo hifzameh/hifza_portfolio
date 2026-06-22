@@ -1,4 +1,12 @@
-
+export const metadata = {
+  title: "VærBuddy",
+  description: "Weather app built with Kotlin",
+  icons: {
+    icon: [
+      { url: "/appIcon.png", type: "image/png" },
+    ],
+  },
+};
 export default function Home() {
 
   return (
@@ -10,6 +18,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-4">
             <a
               href="https://github.com/hifzameh/vaerbuddy"
+              target="_blank"
               className="rounded-lg bg-black px-5 py-3 text-white transition hover:opacity-90"
             >
              View source code
@@ -26,7 +35,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="mt-24 flex gap-6 text-sm text-zinc-600">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/hifzameh"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -34,7 +43,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/hifzameh"
             target="_blank"
             rel="noopener noreferrer"
           >

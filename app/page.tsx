@@ -1,5 +1,13 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Hifza",
+  description: "My portfolio",
+  icons: {
+    icon: "/hifza.png",
+  }
+};
+
 export default function Home() {
 
   return (
@@ -95,7 +103,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="mt-24 flex gap-6 text-sm text-zinc-600">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/hifzameh"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -103,7 +111,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/hifzameh"
             target="_blank"
             rel="noopener noreferrer"
           >
